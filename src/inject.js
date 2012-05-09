@@ -4,13 +4,13 @@ window.inject = inject = function(files, cb){
 	else return false;
 	
 	var inject = this.inject
-		, file
-		, node
-		, i = files.length
-		, head
-		, load = function(){
-			if(i === 0)	cb() || function(){};
-		};
+	, file
+	, node
+	, i = files.length
+	, head
+	, load = function(){
+		if(i === 0)	cb() || function(){};
+	};
 	
 	if(/in/.test(document.readyState) || setTimeout('inject', 9)){
 		head = document.getElementsByTagName('head')[0];
