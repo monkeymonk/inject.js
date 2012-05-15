@@ -28,5 +28,5 @@ window.inject = inject = function(files, cb){
 			head.appendChild(node);
 		}
 	}
-}; // window.inject, inject by Stéphan Zych (monkeymonk.be)
-// use: window.inject('test.js, test.css', function(){alert('all files are loaded!');});
+}; // inject() by Stéphan Zych (monkeymonk.be)
+// use: inject('test.js, test.css', function(){alert('all files are loaded!');});
