@@ -5,6 +5,6 @@ Minimal ressources loader
 
 
 Use:
-`window.inject('test.js, test.css', function(){ alert('all files are loaded!'); });`
+`inject('test.js, test.css', function(){ alert('all files are loaded!'); });`
 
-(with or without `window` keyword, first param can be `string` or `array`)
+(first param can be `string` or `array`)
