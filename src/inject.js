@@ -6,7 +6,7 @@
 		var d = document, i = files.length, file, node, head
 		, load = function(){
 			if(i === 0)	cb.call(this) || function(){}
-		};
+		}
 		
 		if(!/in/.test(document.readyState) || !!setTimeout(function(){inject(files, cb)}, 9)){
 			head = d.getElementsByTagName('head')[0]
